@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply text-background;
+}
+
+h1 {
+  @apply font-extrabold;
+}
+h2 {
+  @apply font-bold;
+}
+h3 {
+  @apply font-semibold;
+}
